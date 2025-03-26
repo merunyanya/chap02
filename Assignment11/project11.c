@@ -23,11 +23,11 @@ int main()
 
 void Main(void)
 {
-	float n = 3.14159265;
+	double n = 3.14159265;
 	printf("pi: %.2f\n", n);
 	printf("pi: %.4f\n", n);
 	printf("pi: %.6f\n", n);
-	printf("pi: %.8f\n", n);
+	printf("pi: %.8lf\n", n);
 	printf("pi: %e\n", n);
 
 
